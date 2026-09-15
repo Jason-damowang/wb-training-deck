@@ -17,7 +17,7 @@ import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DEFAULT_HTML = "workbuddy-training-v2.0.html"
+DEFAULT_HTML = "workbuddy-training-v3.0.html"
 
 # 提示词与所在页的对应关系（顺序即 data-pmt 在文档中的出现顺序）
 LABELS = [
